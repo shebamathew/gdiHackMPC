@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>MealTrek</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
     <!--[if lt IE 9]>
@@ -35,19 +35,32 @@
           </div>
         </nav>
     <div class = "container"> <!--main container-->
-    <div class="input-group">
-      <input type="text" class="form-control text-center" placeholder="Copy and Paste Your Recipe">
-      <span class="input-group-btn">
-          <button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='/Users/shebamathew/Desktop/projects/gdiMealTrek/recipePage.html';">Go!</button>
+      
+        <!--left column to paste recipe url -->
+        
+          <div class="form-group">
+            <input class="form-control form-control-lg" type="text" placeholder="Paste Your Recipe Link Here" id="inputLarge" style = "width: 100%; height: 50px;">
+          </div>
+          <div class="input-group centered">
+              <button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/Users/shebamathew/Desktop/projects/gdiMealTrek/recipePage.html';" style = "height: 50px;">Go!</button>
+            </div>
           <!--dummy link for "https://www.laurafuentes.com/diy-easy-homemade-pho/"-->
-      </span>
-    </div>
-    
+          </span>
+        
 
-    <div class="input-group centered">
-      <button type="button" class="btn btn-primary btn-lg btn-block">Add a Food</button>
-    </div>
-  </div>
+        <p class = text-center> OR </p>
+
+        <!--right column to search for food-->
+      
+          <div class="form-group">
+            <input class="form-control form-control-lg" type="text" placeholder="Add One Food Here" id="inputLarge" style = "width: 100%; height: 50px;">
+          </div>
+          <div class="input-group centered">
+            <button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/Users/shebamathew/Desktop/projects/gdiMealTrek/staplePage.html';" style = "height: 50px;">Add a Food</button>
+          </div>
+        
+      
+    </div> <!--closes out container-->
   
 
 <!-- DON'T TOUCH THIS -->
