@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap 101 Template</title>
+    <title>Meal Trek: Your List</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
     <!--[if lt IE 9]>
@@ -13,8 +13,7 @@
     <![endif]-->
   </head>
   <body>
-        
-          <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
               <a class="navbar-brand" href="/Users/shebamathew/Desktop/projects/gdiMealTrek/main.html">MealTrek</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -34,30 +33,25 @@
                 </ul>
               </div>
             </nav>
-        <div class = "container"> <!--main container-->
+    <div class = "container"> <!--main container-->
 
-    <div class="input-group">
-        <header>Your Shopping List</header>
-        <span class="input-group-btn">
-          <button class="btn btn-default" type="button">Add</button>
-        </span>
-    </div>
-
-    <div class="groceryList">
-          <ul>
+        <div id="myDIV" class="header">
+            <h1>Your Shopping List</h1>
+        </div>
+    
+        <ul id="myUL">
             <li> Chicken Breast  </li>
             <li> Broccoli  </li>
             <li> Avocado  </li>
             <li> Oatmeal  </li>
             <li> Brown Rice </li>
           </ul>
+
+        <button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/Users/shebamathew/Desktop/projects/gdiMealTrek/stapleSearch.html';">Add Another Food</button>
     </div>
-
-    <button type="button" class="btn btn-primary btn-lg btn-block" onclick="window.location.href='/Users/shebamathew/Desktop/projects/gdiMealTrek/stapleSearch.html';">Add Another Food</button>
-
-
 <!-- DON'T TOUCH THIS -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
+
